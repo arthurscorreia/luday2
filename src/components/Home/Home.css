@@ -1,0 +1,156 @@
+.home-img-luana-arthur {
+  width: 100%;
+  max-width: 700px;
+  margin: 0px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  position: top;
+  justify-content: center;
+  pointer-events: none;
+  margin-bottom: 100px;
+}
+
+.home-img-luana-arthur img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100dvh;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.home h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 100px;
+}
+
+.home p {
+  font-size: 1.5rem;
+  margin-bottom: 1.6rem;
+}
+
+.home button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #fff;
+  color: #ff5e78;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* .botaoGaleria {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+  flex-wrap: wrap; 
+  justify-content: center;
+  text-decoration: none;
+} */
+
+.botaoGaleria {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #fff;
+  color: #ff5e78;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 16px;
+  text-decoration: none;
+  /* display: inline-block; */
+  text-align: center;
+}
+
+.botaoGaleria:hover {
+  background-color: #ff5e78;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.home button:hover {
+  background-color: #ff5e78;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .home h1 {
+    font-size: 2.4rem;
+    margin-top: 0px;
+  }
+
+  .home p {
+    font-size: 1.3rem;
+  }
+
+  .home button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .botaoGaleria {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .home-img-luana-arthur {
+    max-width: 90%;
+    position: relative;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home h1 {
+    font-size: 2rem;
+    margin-top: 0px;
+  }
+
+  .home p {
+    font-size: 1.1rem;
+  }
+
+  .home button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .botaoGaleria {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .home-img-luana-arthur {
+    max-width: 95%;
+    position: relative;
+    margin-bottom: 0px;
+  }
+}

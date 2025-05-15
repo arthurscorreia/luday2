@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import Galeria from './components/Galeria';
+import Quiz from './components/Pre_Quiz';
+import Pergunta1 from './components/Perguntas/Pergunta1';
+import Pergunta2 from './components/Perguntas/Pergunta2';
+import Pergunta3 from './components/Perguntas/Pergunta3';
+import Pergunta4 from './components/Perguntas/Pergunta4';
+/* import './App.css'; */
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>   
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/galeria" element={<Galeria />} />
+          <Route path="/quiz" element={<Quiz />} />
+          <Route path="/pergunta1" element={<Pergunta1 />} />
+          <Route path="/pergunta2" element={<Pergunta2 />} />
+          <Route path="/pergunta3" element={<Pergunta3 />} />
+          <Route path="/pergunta4" element={<Pergunta4 />} />
+          {/* <Route path="/pergunta5" element={<Pergunta5 />} /> */}
+        </Routes>
+    </Router>
   );
 }
 

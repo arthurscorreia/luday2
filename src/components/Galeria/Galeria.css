@@ -1,0 +1,91 @@
+.galeria-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100dvh;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  font-family: "Poetsen One", sans-serif;
+  color: #fff;
+  text-align: center;
+  box-sizing: auto;
+}
+
+.galeria-container h1 {
+  font-size: 4rem;
+  margin-bottom: 5px;
+}
+
+.galeria-container h2 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.galeria-swiper {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.galeria-swiper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+}
+
+.botaoVoltar {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Poetsen One", sans-serif;
+  text-decoration: none;
+}
+
+.botaoVoltar:hover {
+  background-color: #ff5e78;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+@media (max-width: 480px) {
+  .galeria-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;
+    padding: 20px;
+    height: 100dvh;         
+    box-sizing: border-box;
+  }
+
+  .galeria-container h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1px;
+  }
+
+  .galeria-container h2 {
+    font-size: 1.15rem;
+    margin-bottom: 20px;
+  }
+
+  .galeria-swiper {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .botaoVoltar {
+    margin-top: 24px;
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}
