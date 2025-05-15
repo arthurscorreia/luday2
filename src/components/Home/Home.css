@@ -36,13 +36,17 @@
 
 .home h1 {
   font-size: 3rem;
-  margin-bottom: 1rem;
-  margin-top: 100px;
+  margin-bottom: 10px;
+  margin-top: 200px;
+}
+.home h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
 }
 
 .home p {
-  font-size: 1.5rem;
-  margin-bottom: 1.6rem;
+  font-size: 1rem;
+  margin-bottom: 10px;
 }
 
 .home button {
@@ -57,7 +61,7 @@
   font-family: "Poetsen One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-bottom: 16px;
+  margin-bottom: 5px;
   text-align: center;
   text-decoration: none;
 }
@@ -132,6 +136,11 @@
   .home h1 {
     font-size: 2rem;
     margin-top: 0px;
+  }
+
+  .home h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
   }
 
   .home p {
