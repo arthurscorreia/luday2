@@ -9,7 +9,7 @@ import './Galeria.css';
 
 const Galeria = () => {
     return (
-    <div className="galeria-container">
+    <div className="galeria">
       <h1>Galeria</h1>
       <h2>Fotos selecionadas por você na nossa galeria!!</h2>
       <Swiper
@@ -20,7 +20,7 @@ const Galeria = () => {
         // pagination={{ clickable: true }}
         autoplay={{ delay: 4000, disableOnInteraction: false }}
         loop={true}
-        className="galeria-swiper"
+        className="galeriaSwiper"
       >
         <SwiperSlide>
           <img
