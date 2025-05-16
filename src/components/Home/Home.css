@@ -1,6 +1,6 @@
 .home-img-luana-arthur {
   width: 100%;
-  max-width: 700px;
+  max-width: 600px;
   margin: 0px;
   position: absolute;
   top: 0;
@@ -49,7 +49,7 @@
   margin-bottom: 10px;
 }
 
-.home button {
+/* .home button {
   padding: 10px 20px;
   font-size: 1.2rem;
   background-color: #fff;
@@ -64,6 +64,30 @@
   margin-bottom: 5px;
   text-align: center;
   text-decoration: none;
+} */
+
+.botaoQuiz {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #fff;
+  color: #ff5e78;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 5px;
+  text-decoration: none;
+  /* display: inline-block; */
+  text-align: center;
+}
+
+.botaoQuiz:hover {
+  background-color: #ff5e78;
+  color: #fff;
+  transform: scale(1.1);
 }
 
 /* .botaoGaleria {
@@ -87,13 +111,37 @@
   font-family: "Poetsen One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-bottom: 16px;
+  margin-bottom: 5px;
   text-decoration: none;
   /* display: inline-block; */
   text-align: center;
 }
 
 .botaoGaleria:hover {
+  background-color: #ff5e78;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.botaoTextinho {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #fff;
+  color: #ff5e78;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 5px;
+  text-decoration: none;
+  /* display: inline-block; */
+  text-align: center;
+}
+
+.botaoTextinho:hover {
   background-color: #ff5e78;
   color: #fff;
   transform: scale(1.1);
@@ -115,12 +163,23 @@
     font-size: 1.3rem;
   }
 
-  .home button {
+  /* .home button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  } */
+
+  .botaoQuiz {
     font-size: 1rem;
     padding: 8px 16px;
   }
 
+
   .botaoGaleria {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .botaoTextinho {
     font-size: 1rem;
     padding: 8px 16px;
   }
@@ -147,12 +206,22 @@
     font-size: 1.1rem;
   }
 
-  .home button {
+  /* .home button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  } */
+
+  .botaoQuiz {
     font-size: 1rem;
     padding: 8px 16px;
   }
 
   .botaoGaleria {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .botaoTextinho {
     font-size: 1rem;
     padding: 8px 16px;
   }

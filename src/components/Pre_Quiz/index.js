@@ -11,8 +11,8 @@ const Quiz = () => {
             <h1>Quiz do dia dos namorados</h1>
             <h2>Você está preparada para começar o nosso quiz?</h2>
             <p>Teste seu conhecimento sobre o nosso namoro!!</p>
-            <Link to="/pergunta1">
-                <button>Começar o quiz</button>      
+            <Link to="/pergunta1" className="botaoIniciarPergunta">
+                Começar o quiz      
             </Link>
             <Link to="/" className="quizVoltar">
                 Voltar

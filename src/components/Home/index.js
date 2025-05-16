@@ -11,17 +11,22 @@ const Home = () => {
             <h1>Bem vinda ao nosso site!!</h1>
             <h2>Esse site foi feito para você, Luana, com muito amor e carinho!</h2>
             <p>Responda o quiz e ganhe um brinde secreto!</p>
-            <Link to="/quiz">
-                <button>Quiz</button>      
+            <Link to="/quiz" className="botaoQuiz">
+                Quiz      
             </Link>
+            <p>Veja a nossa galeria de fotos!</p>
             <Link to="/galeria" className="botaoGaleria">
-                Ir para nossa galeria
+                Galeria
             </Link>
             {/* <Link to="/galeria">
                 <div className = "botaoGaleria">
                 <button>Nossa galeria</button>
                 </div>
             </Link> */}
+            <p>Acesse um textinho especial para você!</p>
+            <Link to="/textinho" className="botaoTextinho">
+                Textinho
+            </Link>
         </div>
     );
 };
