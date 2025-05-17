@@ -10,7 +10,7 @@ const Home = () => {
             </div>
             <h1>Bem vinda ao nosso site!!</h1>
             <h2>Esse site foi feito para você, Luana, com muito amor e carinho!</h2>
-            <p>Responda o quiz e ganhe um brinde secreto!</p>
+            <p>Teste os seus conhecimentos sobre o nosso namoro!</p>
             <Link to="/quiz" className="botaoQuiz">
                 Quiz      
             </Link>

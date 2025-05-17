@@ -1,22 +1,29 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
 .galeria {
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* position: absolute; */
   min-height: 100dvh;
   padding: 40px 20px;
   background: linear-gradient(135deg, #ffdde1, #ee9ca7);
   font-family: "Poetsen One", sans-serif;
   color: #fff;
   text-align: center;
-  box-sizing: auto;
+  box-sizing: border-box;
 }
 
 .galeria h1 {
-  /* position: absolute; */
   font-size: 4rem;
   margin-bottom: 5px;
-  margin-top: -25px
+  margin-top: -25px;
 }
 
 .galeria h2 {
@@ -25,18 +32,39 @@
 }
 
 .galeriaSwiper {
+   width: 100%;
+  max-width: 100vw;
+  overflow: visible;
   width: 100%;
-  max-width: 400px;
+  max-width: 450px;
+  padding: 20px; 
+  box-sizing: border-box;
   border-radius: 20px;
-  overflow: hidden;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  overflow: visible;
+  box-shadow: none;
 }
 
-.galeriaSwiper img {
+.galeriaSwiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.polaroid {
+  background: white;
+  padding: 10px 10px 25px 10px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
   width: 100%;
-  height: auto;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.polaroid img {
+  width: 100%;
+  border-radius: 6px;
   display: block;
-  border-radius: 20px;
+  object-fit: cover;
 }
 
 .botaoVoltar {
@@ -90,5 +118,10 @@
     margin-top: 24px;
     font-size: 1rem;
     padding: 8px 16px;
+  }
+
+  .polaroid {
+    max-width: 95%;
+    padding: 8px 8px 20px 8px;
   }
 }
