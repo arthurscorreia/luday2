@@ -7,7 +7,7 @@ const Pergunta4 = () => {
     // const [mostrarDica, setDica] = useState(false);
 
     const verificarResposta = (resposta) => {
-        if (resposta === "Sim" || resposta === "Claro") {
+        if (resposta === "E") {
         setResposta(true);
         }
         else {
@@ -17,15 +17,18 @@ const Pergunta4 = () => {
 
 return (
     <div className="pergunta">
-      <h1>Questão 4:</h1>
-      <h2>Eu sou um ótimo namorado? 😵</h2> 
+      <h1>Questão 5:</h1>
+      <h2>Qual foi o primeiro filme que vimos juntos no cinema? 🎥</h2> 
       {/* se n me engano foi no dia dos pais - 13 de 2022 */}
         {/* <button className="verDica" onClick={() => setDica(true)}>Ver dica</button>
         {mostrarDica && <p className="dica">Dica: Foi na despedida de Mari W em 2022 🤗</p>} */}
       
       <div>
-        <button onClick={() => verificarResposta("Sim")}>SIM!!!</button>
-        <button onClick={() => verificarResposta("Claro")}>CLARO!!</button>
+        <button onClick={() => verificarResposta("A")}>After</button>
+        <button onClick={() => verificarResposta("B")}>Gato de botas 2</button>
+        <button onClick={() => verificarResposta("C")}>Amor de redenção</button>
+        <button onClick={() => verificarResposta("D")}>Não sei</button>
+        <button onClick={() => verificarResposta("E")}>Ingresso para o paraíso</button>
         </div>
 
       {resposta === true && (
