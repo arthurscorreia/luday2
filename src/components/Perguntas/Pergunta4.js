@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
 import './Perguntas.css';
 
-const Pergunta3 = () => {
+const Pergunta4 = () => {
     const [resposta, setResposta] = useState(null);
     // const [mostrarDica, setDica] = useState(false);
 
@@ -47,5 +47,5 @@ return (
   );
 };
 
-export default Pergunta3;
+export default Pergunta4;
       
