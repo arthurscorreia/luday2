@@ -17,7 +17,7 @@ const Pergunta4 = () => {
 
 return (
     <div className="pergunta">
-      <h1>Questão 5:</h1>
+      <h1>Questão 4:</h1>
       <h2>Qual foi o primeiro filme que vimos juntos no cinema? 🎥</h2> 
       {/* se n me engano foi no dia dos pais - 13 de 2022 */}
         {/* <button className="verDica" onClick={() => setDica(true)}>Ver dica</button>
