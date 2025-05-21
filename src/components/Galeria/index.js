@@ -42,7 +42,8 @@ const Galeria = () => {
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={30}
-        slidesPerView={1}
+        slidesPerView={1.5}
+        centeredSlides={true}
         autoplay={{ delay: 4000, disableOnInteraction: false }}
         loop={true}
         className="galeriaSwiper"
@@ -59,7 +60,7 @@ const Galeria = () => {
 
       <div className="uploadContainer">
         <label className="uploadLabel">
-          Adicionar imagem à galeria:
+          Adicionar imagem a galeria:
           <input type="file" accept="image/*" onChange={handleUpload} />
         </label>
       </div>

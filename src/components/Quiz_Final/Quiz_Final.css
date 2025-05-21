@@ -1,0 +1,124 @@
+.quiz_final-img {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.quiz_final-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.quiz_final {
+  background-color: #fff0f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #8b0000;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.quiz_final h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.625rem;
+  text-align: center;
+}
+
+.quiz_final h2 {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+
+.quiz_final p {
+  font-size: 1.2rem;
+  margin-bottom: 1.7rem;
+  text-align: center;
+}
+
+/* .botaoIniciarPergunta {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.botaoIniciarPergunta:hover {
+  transform: scale(1.1);
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+.quizVoltar {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Poetsen One", sans-serif;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.quizVoltar:hover {
+  background-color: #ff5e78;
+  color: #fff;
+  transform: scale(1.1);
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 480px) {
+  .quiz_final {
+    overflow: hidden;
+  }
+  .quiz_final h1 {
+    font-size: 2rem;
+  }
+
+  .quiz_final h2 {
+    font-size: 1.3rem;
+  }
+
+  .quiz_final p {
+    font-size: 1rem;
+  }
+
+  /* .botaoIniciarPergunta {
+    font-size: 1rem;
+    padding: 8px 16px;
+  } */
+
+  .quiz_final-img {
+    max-width: 50%;
+    height: 30%;
+  }
+
+  .quizVoltar {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}
