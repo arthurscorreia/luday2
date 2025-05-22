@@ -58,9 +58,9 @@ const Galeria = () => {
 
       </Swiper>
 
-      <div className="uploadContainer">
-        <label className="uploadLabel">
-          Adicionar imagem a galeria:
+      <div className="addImageContainer">
+        <label className="addImageLabel">
+          Adicionar imagem a galeria
           <input type="file" accept="image/*" onChange={handleUpload} />
         </label>
       </div>

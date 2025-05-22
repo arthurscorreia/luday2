@@ -67,8 +67,42 @@ body {
   object-fit: cover;
 }
 
+/* .addImageContainer {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+  transition: transform 0.3s ease;
+} */
+
+/* .addImageContainer:hover {
+  transform: scale(1.02);
+} */
+
+.addImageLabel {
+  display: inline-block;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  color: #fff;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.addImageLabel:hover {
+  background-color: #ff5e78;
+  transform: scale(1.05);
+}
+
+.addImageLabel input[type="file"] {
+  display: none;
+}
+
 .botaoVoltar {
-  margin-top: 30px;
+  margin-top: 10px;
   padding: 10px 20px;
   font-size: 1.2rem;
   background-color: #ff69b4;
@@ -114,8 +148,14 @@ body {
     margin: 0 auto;
   }
 
+  .addImageLabel {
+    margin-top: 8px;
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
   .botaoVoltar {
-    margin-top: 24px;
+    margin-top: 8px;
     font-size: 1rem;
     padding: 8px 16px;
   }
