@@ -26,10 +26,10 @@ Criei este projeto para:
 
 ---
 
-### ❓ Quiz do Amor  
+### ❓ Quiz  
 - 5 perguntas personalizadas   
 
-### 📸 Galeria de Memórias  
+### 📸 Galeria 
 - Carrossel interativo  
 - Upload de novas fotos (sem persistência) 
 
