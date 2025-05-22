@@ -1,19 +1,39 @@
-# 💝 Site de Dia dos Namorados
+# 💖Um Presente Digital para Dia dos Namorados  
 
-Um presente digital criado com React.js para celebrar o Dia dos Namorados, combinando interatividade e memórias afetivas.
+**✨ Um site romântico e interativo feito com React.js para celebrar o amor!**  
 
-## ✨ Funcionalidades
+## 🎯 Sobre o Projeto  
 
-- **Página Home**: Apresentação romântica com menu para as outras páginas
-- **Quiz Interativo**: Teste engraçado de conhecimento sobre o relacionamento 
-- **Galeria de Fotos**: 
-  - Carrossel de imagens com Swiper
-  - Upload temporário de novas fotos (sem persistência)
-  - Layout responsivo
+Criei este projeto para:  
+- Surpreender minha namorada no Dia dos Namorados 💝  
+- Demonstrar minhas habilidades com **React.js** e desenvolvimento web  
+- Praticar conceitos como **gerenciamento de estado, rotas e componentes reutilizáveis**  
 
-## 🛠 Tecnologias
+👉 **Destaques**:  
+✅ Quiz personalizado sobre nosso relacionamento  
+✅ Galeria de fotos com efeito carrossel (Swiper)  
+✅ Design responsivo e animações suaves  
+✅ Upload temporário de novas fotos (simulando um álbum digital)  
 
-- React.js
-- React Router
-- Swiper.js
-- HTML5/CSS3
+---
+
+## 🛠 Tecnologias Usadas  
+
+| Frontend          | Bibliotecas           | Estilo           |
+|-------------------|-----------------------|------------------|
+| ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | ![Swiper](https://img.shields.io/badge/Swiper-6332F6?style=for-the-badge&logo=swiper&logoColor=white) |
+
+---
+
+### ❓ Quiz do Amor  
+- 5 perguntas personalizadas   
+
+### 📸 Galeria de Memórias  
+- Carrossel interativo  
+- Upload de novas fotos (armazenamento local)  
+
+---
+
+### 👉 Experimente agora
+- [Acesse o Site]([[https://ludays2.vercel.app/]])
