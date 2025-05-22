@@ -31,7 +31,7 @@ Criei este projeto para:
 
 ### 📸 Galeria de Memórias  
 - Carrossel interativo  
-- Upload de novas fotos (armazenamento local)  
+- Upload de novas fotos (sem persistência) 
 
 ---
 
