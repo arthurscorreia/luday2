@@ -36,4 +36,4 @@ Criei este projeto para:
 ---
 
 ### 👉 Experimente agora
-- [Acesse o Site]([[https://ludays2.vercel.app/]])
+- [Acesse no Vercel](https://ludays2.vercel.app)
