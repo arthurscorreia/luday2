@@ -9,7 +9,7 @@ import Pergunta3 from './components/Perguntas/Pergunta3';
 import Pergunta4 from './components/Perguntas/Pergunta4';
 import Pergunta5 from './components/Perguntas/Pergunta5';
 import QuizFinal from './components/Quiz_Final';
-import Textinho from './components/Textinho';
+// import Textinho from './components/Textinho';
 /* import './App.css'; */
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
           <Route path="/pergunta4" element={<Pergunta4 />} />
           <Route path="/pergunta5" element={<Pergunta5 />} />
           <Route path="/quizFinal" element={<QuizFinal />} />
-          <Route path="/textinho" element={<Textinho />} />
+          {/* <Route path="/textinho" element={<Textinho />} /> */}
           {/* <Route path="/pergunta5" element={<Pergunta5 />} /> */}
         </Routes>
     </Router>

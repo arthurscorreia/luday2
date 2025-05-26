@@ -23,10 +23,10 @@ const Home = () => {
                 <button>Nossa galeria</button>
                 </div>
             </Link> */}
-            <p>Acesse um textinho especial para você!</p>
+            {/* <p>Acesse um textinho especial para você!</p>
             <Link to="/textinho" className="botaoTextinho">
                 Textinho
-            </Link>
+            </Link> */}
         </div>
     );
 };

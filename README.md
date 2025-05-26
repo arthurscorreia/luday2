@@ -1,16 +1,16 @@
-# 💖Um Presente Digital para Dia dos Namorados  
+# 💖 Um Presente Digital para Dia dos Namorados  
 
-**✨ Um site romântico e interativo feito com React.js para celebrar o amor!**  
+**✨ Site romântico e interativo feito com React.js!**  
 
 ## 🎯 Sobre o Projeto  
 
 Criei este projeto para:  
-- Surpreender minha namorada no Dia dos Namorados 💝  
-- Demonstrar minhas habilidades com **React.js** e desenvolvimento web  
-- Praticar conceitos como **gerenciamento de estado, rotas e componentes reutilizáveis**  
+- Surpreender minha namorada no Dia dos Namorados 
+- Desenvolver as minhas habilidades com **React.js** e desenvolvimento web  
+- Aprimorar conceitos como **gerenciamento de estado, rotas e componentes reutilizáveis**  
 
 👉 **Destaques**:  
-✅ Quiz personalizado sobre nosso relacionamento  
+✅ Quiz personalizado sobre o relacionamento  
 ✅ Galeria de fotos com efeito carrossel (Swiper)  
 ✅ Design responsivo e animações suaves  
 ✅ Upload temporário de novas fotos (simulando um álbum digital)  
