@@ -1,3 +1,17 @@
+.pergunta-img {
+  width: 50%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.pergunta-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+  
 .pergunta {
   background: linear-gradient(to bottom right, #ffe4e1, #ffb6c1);
   height: 100dvh;
@@ -11,7 +25,7 @@
   text-align: center;
   overflow: hidden;
 }
-  
+
 .pergunta h1 {
   font-size: 3rem;
   margin-bottom: 5px;
@@ -148,6 +162,17 @@
     font-size: 1rem;
     padding: 10px;
     /* margin-bottom: 10px; */
+  }
+
+  .pergunta-img {
+    width: 80%;
+    max-width: 200px;
+  }
+
+  .pergunta-img img {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 }
 

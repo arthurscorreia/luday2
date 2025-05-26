@@ -10,11 +10,11 @@ const Home = () => {
             </div>
             <h1>Bem vinda ao nosso site!!</h1>
             <h2>Esse site foi feito para você, com muito amor e carinho!</h2>
-            <p>Teste os seus conhecimentos sobre o nosso namoro!</p>
+            <p>Teste os seus conhecimentos sobre o nosso namoro 👇!</p>
             <Link to="/quiz" className="botaoQuiz">
                 Quiz      
             </Link>
-            <p>Veja a nossa galeria de fotos!</p>
+            <p>Veja a nossa galeria de fotos 👇!</p>
             <Link to="/galeria" className="botaoGaleria">
                 Galeria
             </Link>

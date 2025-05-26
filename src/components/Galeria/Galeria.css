@@ -3,7 +3,6 @@ body {
   overflow-x: hidden;
 }
 
-
 .galeria {
   width: 100%;
   box-sizing: border-box;
@@ -23,7 +22,7 @@ body {
 .galeria h1 {
   font-size: 4rem;
   margin-bottom: 5px;
-  margin-top: -25px;
+  /* margin-top: -5px; */
 }
 
 .galeria h2 {
