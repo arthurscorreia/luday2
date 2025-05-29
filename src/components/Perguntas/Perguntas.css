@@ -167,10 +167,11 @@
   .pergunta-img {
     width: 80%;
     max-width: 200px;
+    margin-top: 1px;
   }
 
   .pergunta-img img {
-    width: 100%;
+    width: 80%;
     height: auto;
     display: block;
   }
