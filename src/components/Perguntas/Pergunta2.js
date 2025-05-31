@@ -16,9 +16,9 @@ const Pergunta2 = () => {
 
 return (
     <div className="pergunta">
-      <div className="pergunta-img">
+{/*       <div className="pergunta-img">
         <img src="/images/chicoanalua.png" alt="IMG da pergunta 2" />
-      </div>
+      </div> */}
       <h1>Questão 2:</h1>
       <h2>Qual o nome dos nossos filhos de pelúcia? 🧸</h2>
       <div>

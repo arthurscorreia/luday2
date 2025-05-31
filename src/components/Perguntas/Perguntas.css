@@ -1,4 +1,4 @@
-.pergunta-img {
+/* .pergunta-img {
   width: 50%;
   max-width: 300px;
   display: flex;
@@ -10,7 +10,7 @@
   width: 100%;
   height: auto;
   display: block;
-}
+} */
   
 .pergunta {
   background: linear-gradient(to bottom right, #ffe4e1, #ffb6c1);

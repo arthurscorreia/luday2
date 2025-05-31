@@ -16,9 +16,9 @@ const Pergunta1 = () => {
 
 return (
     <div className="pergunta">
-      <div className="pergunta-img">
+{/*       <div className="pergunta-img">
         <img src="/images/gif-qst1.gif" alt="Gif da pergunta 1" />
-      </div>
+      </div> */}
       <h1>Questão 1:</h1>
       <h2>Quando começamos a namorar? 🤔</h2>
       <div>
