@@ -1,13 +1,13 @@
-# 💖 Um Presente Digital para Dia dos Namorados  
+# 💖 LuDayS2 - Um Presente Digital para Dia dos Namorados  
 
 **✨ Site romântico e interativo feito com React.js!**  
 
 ## 🎯 Sobre o Projeto  
 
 Criei este projeto para:  
-- Surpreender minha namorada no Dia dos Namorados 
 - Desenvolver as minhas habilidades com **React.js** e desenvolvimento web  
 - Aprimorar conceitos como **gerenciamento de estado, rotas e componentes reutilizáveis**  
+- Presentear a minha namorada no dia dos namorados!
 
 👉 **Destaques**:  
 ✅ Quiz personalizado sobre o relacionamento  
