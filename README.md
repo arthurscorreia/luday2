@@ -1,4 +1,4 @@
-# 💖 LuDayS2 - Um Presente Digital para Dia dos Namorados  
+# 💖 LuDayS2 - Um presente digital para o dia dos namorados 
 
 **✨ Site romântico e interativo feito com React.js!**  
 
