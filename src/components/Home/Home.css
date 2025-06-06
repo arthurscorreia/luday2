@@ -153,6 +153,30 @@
   transform: scale(1.1);
 }
 
+.botaoPlaylist {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #fff;
+  color: #ff5e78;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 5px;
+  text-decoration: none;
+  /* display: inline-block; */
+  text-align: center;
+}
+
+.botaoPlaylist:hover {
+  background-color: #ff5e78;
+  color: #fff;
+  transform: scale(1.1);
+}
+
 /* @media (max-width: 768px) {
   .home h1 {
     font-size: 2.4rem;
@@ -221,6 +245,10 @@
     padding: 8px 16px;
   }
 
+  .botaoPlaylist {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
   /* .botaoTextinho {
     font-size: 1rem;
     padding: 8px 16px;
