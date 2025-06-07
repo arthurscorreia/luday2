@@ -20,7 +20,7 @@ const Home = () => {
             </Link>
             <p>Ou ouça a nossa playlist no Spotify 👇!</p>
             <a
-                href="https://open.spotify.com/playlist/7tDqn0eobUatUoNVWO94m6?si=480185711ccb444a&pt=d9b13df3c369e1aca4337fc724180b54"
+                href="https://open.spotify.com/playlist/57n9prum1XFL0BGUtfrElD?si=0da8721f1532417e&pt=cac3a0a94707724ee2c531f6a74a0b38"
                 target="_blank"
                 rel="noopener noreferrer"
             >

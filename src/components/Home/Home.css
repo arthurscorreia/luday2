@@ -214,6 +214,52 @@
     margin-bottom: 0px;
   }
 } */
+/* @media (max-width: 1440px) {
+  .home h1 {
+    font-size: 2.4rem;
+    margin-top: 0px;
+  }
+
+  .home h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .home p {
+    font-size: 1.3rem;
+  }
+
+  .home button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .botaoQuiz {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .botaoGaleria {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .botaoPlaylist {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+  
+  .botaoTextinho {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .home-img-luana-arthur {
+    max-width: 70%;
+    position: relative;
+    margin-bottom: 0px;
+  }
+} */
 
 @media (max-width: 480px) {
   .home h1 {
