@@ -7,7 +7,7 @@ const Pergunta5 = () => {
     // const [mostrarDica, setDica] = useState(false);
 
     const verificarResposta = (resposta) => {
-        if (resposta === "D") {
+        if (resposta === "C") {
         setResposta(true);
         }
         else {
@@ -17,24 +17,24 @@ const Pergunta5 = () => {
 
 return (
     <div className="pergunta">
-      <h1>Questão 5:</h1>
-      <h2>O que comemos no dia em que te pedi em namoro?</h2> 
+      <h1>Questão 6:</h1>
+      <h2>E o que vamos comer hoje? 🫠</h2> 
       {/* se n me engano foi no dia dos pais - 13 de 2022 */}
         {/* <button className="verDica" onClick={() => setDica(true)}>Ver dica</button>
         {mostrarDica && <p className="dica">Dica: Foi na despedida de Mari W em 2022 🤗</p>} */}
       
       <div>
-        <button onClick={() => verificarResposta("A")}>McDonald's</button>
-        <button onClick={() => verificarResposta("B")}>Jeronimo</button>
-        <button onClick={() => verificarResposta("C")}>Bob's</button>
-        <button onClick={() => verificarResposta("D")}>Madero</button>
-        <button onClick={() => verificarResposta("E")}>Pipoca</button>
+        <button onClick={() => verificarResposta("A")}>Soho</button>
+        <button onClick={() => verificarResposta("B")}>Chez Bernard</button>
+        <button onClick={() => verificarResposta("C")}>Não vou te contar!!!</button>
+        <button onClick={() => verificarResposta("D")}>Lotti</button>
+        <button onClick={() => verificarResposta("E")}>Loro</button>
         </div>
 
       {resposta === true && (
         <div>
           <p style={{color: 'green' }}>Resposta certa! Parabéns!</p>
-           <Link to="/pergunta6" className="perguntaProxima">
+           <Link to="/pergunta7" className="perguntaProxima">
                   Próxima Pergunta
           </Link>
         </div>
