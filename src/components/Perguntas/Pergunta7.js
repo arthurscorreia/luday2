@@ -17,7 +17,7 @@ const Pergunta7 = () => {
    
    return (
        <div className="pergunta">
-         <h1>Questão 7:</h1>
+         <h1>Questão Final:</h1>
          <h2>Eu sou um ótimo namorado? 😵</h2> 
          {/* se n me engano foi no dia dos pais - 13 de 2022 */}
            {/* <button className="verDica" onClick={() => setDica(true)}>Ver dica</button>
