@@ -1,21 +1,17 @@
 .home-img-luana-arthur {
   width: 100%;
-  max-width: 800px;
-  margin: 0px;
-  position: absolute;
-  top: 0;
+  max-width: 600px;
+  margin: -50px auto -30px auto;
+  position: relative;
   display: flex;
-  position: top;
   justify-content: center;
   pointer-events: none;
-  margin-bottom: 100px;
 }
 
 .home-img-luana-arthur img {
   width: 100%;
   height: auto;
-  display: block;
-  margin-bottom: 20px;
+  /* display: block; */
 }
 
 .home {
@@ -37,7 +33,6 @@
 .home h1 {
   font-size: 3rem;
   margin-bottom: 10px;
-  margin-top: 200px;
 }
 .home h2 {
   font-size: 1.3rem;
@@ -260,6 +255,52 @@
     margin-bottom: 0px;
   }
 } */
+
+@media (max-width: 1024px) {
+  .home h1 {
+    font-size: 2.4rem;
+    margin-top: 0px;
+  }
+
+  .home h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .home p {
+    font-size: 1.3rem;
+  }
+
+  /* .home button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  } */
+
+  .botaoQuiz {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .botaoGaleria {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .botaoPlaylist {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+  
+  /* .botaoTextinho {
+    font-size: 1rem;
+    padding: 8px 16px;
+  } */
+
+  .home-img-luana-arthur {
+    max-width: 50%;
+    position: relative;
+  }
+}
 
 @media (max-width: 480px) {
   .home h1 {

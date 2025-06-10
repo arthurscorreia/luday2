@@ -9,7 +9,8 @@ const QuizFinal = () => {
                 <img src="/images/gif-parabens.gif" alt="Gif de parabéns" />
             </div>
                 <h1>Parabéns!! Você concluiu o nosso quiz!!</h1>
-                <h2>Você realmente conhece o nosso relacionamento! 😍🎉</h2>
+                <h2>Você realmente conhece o nosso relacionamento!! 😍🎉</h2>
+                <h3>Agora você pode acessar a página galeria!!</h3>
                 {/* <p>Teste seu conhecimento sobre o nosso namoro!!</p> */}
                 {/* <Link to="/pergunta1" className="botaoIniciarPergunta">
                     Começar o quiz      
